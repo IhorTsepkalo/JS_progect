@@ -176,3 +176,85 @@
 // for (let createdWord of letters) {
 //     document.write(`${createdWord}`)
 // }
+
+// Дан масив ['a', 'b', 'c']. Додайте йому в кінець елементи 1, 2, 3 за допомогою циклу.
+// let letters = ['a', 'b', 'c'];
+// letters [3] = 1;
+// letters [4] = 2;
+// letters [5] = 3;
+// for (let i=0;i<letters.length;i++) {
+//     console.log(letters[i]);
+//   }
+
+// Дан масив [1, 2, 3]. Зробіть з нього новий масив [3, 2, 1].
+// let numbers = [1,2,3];
+// let reversed = numbers.reverse();
+// console.log(reversed);
+
+// Дан масив [1, 2, 3]. Додайте йому в кінець елементи 4, 5, 6.
+//let numbers = [1,2,3];
+//numbers.push(4,5,6);
+//console.log(numbers);
+
+// Дан масив [1, 2, 3]. Додайте йому в початок елементи 4, 5, 6.
+//let numbers = [1,2,3];
+//numbers.unshift(4,5,6);
+//console.log(numbers);
+
+// Дан масив ['js', 'css', 'jq']. Виведіть на екран перший елемент за допомогою shift()
+//let m = ['js', 'css', 'jq'];
+//let shifted = m.shift();
+//console.log(shifted);
+
+// n Дан масив ['js', 'css', 'jq']. Виведіть на екран останній елемент за допомогою pop()
+// let m = ['js', 'css', 'jq'];
+// let popped = m.pop();
+// console.log(popped);
+
+// Дан масив [1, 2, 3, 4, 5]. За допомогою методу/функції slice перетворіть масив в [4, 5].
+// let numbers = [1,2,3,4,5];
+// let fourFive = numbers.slice(3,5);
+// console.log(fourFive);
+
+// Дан масив [1, 2, 3, 4, 5]. За допомогою методу/функції slice перетворіть масив в [1,2].
+// let numbers = [1,2,3,4,5];
+// let oneTwo = numbers.slice(0,2);
+// console.log(oneTwo);
+
+// Дан масив [1, 2, 3, 4, 5]. За допомогою методу/функції splice перетворіть масив в [1, 4, 5].
+// let numbers = [1,2,3,4,5];
+// numbers.splice(1,2);
+// console.log(numbers);// Дан масив [1, 2, 3, 4, 5]. За допомогою методу/функції splice зробіть з нього масив [1, 2, 3, 'a', 'b', 'c', 4, 5].
+// let numbers = [1,2,3,4,5];
+// numbers.splice(2,1,3,'a','b','c');
+// console.log(numbers);
+
+// Дан масив [1, 2, 3, 4, 5]. За допомогою методу/функції splice зробіть з нього масив [1, 'a', 'b', 2, 3, 4, 'c', 5, 'e'].
+// let numbers = [1,2,3,4,5];
+// numbers.splice(0,1,1,'a','b');
+// numbers.splice(5,1,4,'c');
+// numbers.splice(7,1,5,'e');
+// console.log(numbers);
+
+// Взяти масив з 10 чисел або створити його. Вивести в консоль тільки ті елементи, значення яких є парними.
+// let numbers = [1,2,3,4,5,6,7,8,9,10];
+// for (let i=0;i<=10;i+=2) {
+//     console.log(i);
+// }
+
+// Взяти масив з 10 чисел або створити його. Створити 2й порожній масив. За допомогою будь-якого циклу та push () скопіювати значення одного масиву в інший
+// let numbers = [1,2,3,4,5,6,7,8,9,10];
+// let empty = [];
+// empty.push(numbers)
+// for (let i=0;i<empty.length;i++) {
+//     console.log(empty[i])
+// }
+
+//  Взяти масив з 10 чисел або створити його. Створити 2й порожній масив. За допомогою будь-якого циклу скопіювати значення одного масиву в інший.
+//let numbers = [1,2,3,4,5,6,7,8,9,10];
+// let empty = [];
+// for (empty of numbers) {
+//     console.log(empty)
+//}
+
+
