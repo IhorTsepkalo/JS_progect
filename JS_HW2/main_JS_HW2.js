@@ -321,3 +321,24 @@
 // let num = [2,17,13,6,22,31,45,66,100,-18];
 // let numReversed = num.reverse();
 // console.log(numReversed);
+
+//  створити пустий масив та :
+// 1. заповнити його 50 парними числами за допомоги циклу.
+//let emptyArr = [];
+//for (i=0;i<=50;i+=2) {
+//    if (i%2===0) {
+//        emptyArr.push(i)
+//    }
+//    console.log(emptyArr)
+//}
+
+// 2. заповнити його 50 непарними числами за допомоги циклу.
+//let emptyArr = [];
+//for (i=0;i<50;i++) {
+//    if (i%2!==0) {
+//    emptyArr.push(i)
+//        }
+//    console.log(emptyArr)
+//}
+
+
