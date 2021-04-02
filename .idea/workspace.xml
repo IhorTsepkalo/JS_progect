@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a4e520d-83bc-4bd6-a44a-189d681ffa55" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/JS_HW3_JSON_DOM/inde[.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_HW3_JSON_DOM/index_JS_HW3_JSON_DOM.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_HW3_JSON_DOM/main_JS_HW3_JSON_DOM.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS_HW2/main_JS_HW2.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS_HW2/main_JS_HW2.js" afterDir="false" />
     </list>
@@ -45,6 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -66,7 +70,12 @@
       <workItem from="1616868648985" duration="5707000" />
       <workItem from="1617111075139" duration="7263000" />
       <workItem from="1617278350123" duration="5751000" />
-      <workItem from="1617295809756" duration="3195000" />
+      <workItem from="1617295809756" duration="6187000" />
+      <workItem from="1617311568573" duration="534000" />
+      <workItem from="1617312118123" duration="229000" />
+      <workItem from="1617312358685" duration="241000" />
+      <workItem from="1617312611933" duration="335000" />
+      <workItem from="1617312958948" duration="15239000" />
     </task>
     <task id="LOCAL-00001" summary="JS_HW2 Except an additional tasks.">
       <created>1616720587235</created>
@@ -124,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616883800410</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Full">
+      <created>1617308555120</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1617308555120</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +166,7 @@
     <MESSAGE value="JS_Home_Works" />
     <MESSAGE value="//////////" />
     <MESSAGE value="new additional tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="new additional tasks" />
+    <MESSAGE value="Full" />
+    <option name="LAST_COMMIT_MESSAGE" value="Full" />
   </component>
 </project>
