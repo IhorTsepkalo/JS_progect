@@ -100,7 +100,7 @@
 //
 //  let g = [55,100];
 //   biggestFromArr(g);
-//
+
 // 6) створити функцію яка повертає найменьше число з масиву
 // let numbersOfArr2 = [8,9,4,12];
 // function smalestFromArr (whatArrToChek) {
@@ -149,7 +149,7 @@
 // 9) Створити функцію яка приймає масив будь яких объектів, та повертає масив ключів всіх обєктів
 // let arrOfObj = [{name: 'Dima', age: 13}, {model: 'Camry'}];
 //
-// function arrFromObj(whatArrToChek) {
+// function arrFromObjKeys(whatArrToChek) {
 //     let arr = [];
 //     for (i = 0; i < whatArrToChek.length; i++) {
 //         let a = Object.keys(whatArrToChek[i]);
@@ -158,7 +158,7 @@
 //     console.log(arr)
 // }
 //
-// arrFromObj(arrOfObj);
+// arrFromObjKeys(arrOfObj);
 //
 // let arr = [{name: 'Dima', age: 13, weight: 75}, {model: 'Camry'}];
 // arrFromObj(arr);
@@ -167,7 +167,7 @@
 //
 // let arrOfObj = [{name: 'Dima', age: 13}, {model: 'Camry'}];
 //
-// function arrFromObj(whatArrToChek) {
+// function arrFromObjVal(whatArrToChek) {
 //     let arr = [];
 //     for (i = 0; i < whatArrToChek.length; i++) {
 //         let a = Object.values(whatArrToChek[i]);
@@ -176,21 +176,20 @@
 //     console.log(arr)
 // }
 //
-// arrFromObj(arrOfObj)
+// arrFromObjVal(arrOfObj)
 //
-// let arr = [{name: 'Dima', age: 13, weight: 75}, {model: 'Camry'}, {job: 'Dev'}];
-// arrFromObj(arr);
+
 // - Дано список імен.
 // let n1 = '    Harry       Potter      '
 // let n2 = '    Ron                       Whisley      '
 // let n3 = '    Hermione       Granger      '
-
+//
 // Написати функцію, яка приймає будь яке не валідне імя, та нормалізує його в наступнйи вигляд
-
+//
 // console.log(n1);
 // console.log(n2);
 // console.log(n3);
-
+//
 // function gapTrimmer(whatToTrimm) {
 //     let trimmed = whatToTrimm.trim();
 //     let splited = trimmed.split(' ');

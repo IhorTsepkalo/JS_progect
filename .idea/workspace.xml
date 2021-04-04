@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a4e520d-83bc-4bd6-a44a-189d681ffa55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JS_HW4_FUNCTIONS/index_JS_HW4_FUNCTIONS.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS_HW4_FUNCTIONS/main_JS_HW4_FUNCTIONS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS_HW4_FUNCTIONS/main_JS_HW4_FUNCTIONS.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS_HW4_FUNCTIONS/main_JS_HW4_FUNCTIONS.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +75,7 @@
       <workItem from="1617467713312" duration="323000" />
       <workItem from="1617468090526" duration="90000" />
       <workItem from="1617468196051" duration="1843000" />
-      <workItem from="1617474080418" duration="35307000" />
+      <workItem from="1617474080418" duration="35615000" />
     </task>
     <task id="LOCAL-00001" summary="JS_HW2 Except an additional tasks.">
       <created>1616720587235</created>
@@ -156,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617364332320</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="functions - some tasks">
+      <created>1617578729858</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1617578729858</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +189,7 @@
     <MESSAGE value="new additional tasks" />
     <MESSAGE value="Full" />
     <MESSAGE value="DOM and JSON" />
-    <option name="LAST_COMMIT_MESSAGE" value="DOM and JSON" />
+    <MESSAGE value="functions - some tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="functions - some tasks" />
   </component>
 </project>
