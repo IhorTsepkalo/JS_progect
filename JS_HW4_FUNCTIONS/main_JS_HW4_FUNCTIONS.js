@@ -39,28 +39,31 @@
 
 // 3) створити функцію яка приймає три числа та виводить найбільше. (Без Math.min!)
 //
-//function biggestNumOf3() {
-//    let num1 = +prompt('Введіть перше число');
-//    let num2 = +prompt('Введіть друге число');
-//    let num3 = +prompt('Введіть третє число');
-//    let maxNum = 0;
-//    if (num1 > num2 || num1 > num3) {
-//        maxNum = num1;
-//    }
-//    else if (num2 > num3) {
-//        maxNum = num2;
-//    }
-//    else {
-//        maxNum = num3;
-//    }
-//    return maxNum
-//}
+//  function biggestNumOf3(num1,num2,num3) {
+//     num1 = +prompt('Введіть перше число');
+//     num2 = +prompt('Введіть друге число');
+//     num3 = +prompt('Введіть третє число');
+//      let maxNum = 0;
+//      if (num1 > num2 || num1 > num3) {
+//          maxNum = num1;
+//      }
+//      else if (num2 > num3) {
+//          maxNum = num2;
+//      }
+//      else {
+//          maxNum = num3;
+//      }
+//      return maxNum;
+//  }
 //
-//let biggestNum1 = biggestNumOf3()
-//console.log(biggestNum1)
+//  let biggestNum1 = biggestNumOf3()
+//  console.log(biggestNum1)
 //
-//let biggestNum2= biggestNumOf3()
-//console.log(biggestNum2)
+// let biggestNum2= biggestNumOf3()
+// console.log(biggestNum2)
+//
+// let biggestNum3= biggestNumOf3();
+// console.log(biggestNum3);
 
 // 4)  створити функцію яка приймає три числа та виводить найменьше. (Без Math.min!)
 //
@@ -88,30 +91,82 @@
 //console.log(biggestNum3)
 
 // 5) створити функцію яка повертає найбільше число з масиву
-//  let numbersArr1 = [8,1,4,12];
-//   function biggestFromArr (whatArrToChek) {
-//      let max = Math.max(...whatArrToChek);
-//       console.log(max);
-//        }
-//   biggestFromArr(numbersArr1);
+//   let numbersArr1 = [8,1,4,12];
+//    function biggestFromArrMathMax (whatArrToChek) {
+//       let max = Math.max(...whatArrToChek);
+//        console.log(max);
+//        return max;
+//         }
+//    biggestFromArrMathMax(numbersArr1);
 //
-//   let a = [1,55,46];
-//   biggestFromArr(a);
+//    let a = [1,55,46];
+//    biggestFromArrMathMax(a);
 //
-//  let g = [55,100];
-//   biggestFromArr(g);
+//   let g = [55,100];
+//    biggestFromArrMathMax(g);
+//
+// Or.............. Without Math.max.............
+//
+//  let numbersArr1 = [8, 1, 4];
+//
+//  function biggestFromArr(whatArrToChek) {
+//      let max = 0;
+//      for (i = 0; i < whatArrToChek.length; i++) {
+//
+//          if (max < whatArrToChek[i]) {
+//              max = whatArrToChek[i];
+//          }
+//            }
+//      return max;
+//     }
+//  biggestFromArr(numbersArr1);
+//  let biggest = biggestFromArr(numbersArr1);
+//  console.log(biggest)
+//
+// let a = [1,55,46];
+// biggestFromArr(a);
+// console.log(biggestFromArr(a));
+//
+//
+// let g = [55,100];
+// biggestFromArr(g);
+// console.log(biggestFromArr(g));
 
 // 6) створити функцію яка повертає найменьше число з масиву
-// let numbersOfArr2 = [8,9,4,12];
-// function smalestFromArr (whatArrToChek) {
-//     let min = Math.min(...whatArrToChek);
-//     console.log(min);
-// }
-// smalestFromArr(numbersOfArr2);
+//  let numbersOfArr2 = [8,9,4,12];
+//  function smalestFromArr (whatArrToChek) {
+//      let min = Math.min(...whatArrToChek);
+//      console.log(min);
+//  }
+//  smalestFromArr(numbersOfArr2);
 //
-// let d = [10,2,3,77];
+//  let d = [10,2,3,77];
 // biggestFromArr(d);
 // smalestFromArr(d);
+//
+// Or.............. Without Math.max.............
+//
+// let numbersArr1 = [8, -9, 9];
+//
+// function smalestFromArr(whatArrToChek) {
+//     let min = 0;
+//     for (i = 0; i < whatArrToChek.length; i++) {
+//
+//         if (min > whatArrToChek[i] || min === 0) {
+//             min = whatArrToChek[i];
+//         }
+//     }
+//     return min;
+// }
+//
+// console.log(smalestFromArr(numbersArr1));
+//
+// let a = [-1, 55, 46];
+// console.log(smalestFromArr(a));
+//
+//
+// let g = [55, 100, -15];
+// console.log(smalestFromArr(g));
 
 // 7) створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його.
 // let arrAverage = [100, 250, 50, 168, 120, 345];
@@ -131,20 +186,20 @@
 // sumOfArr(w);
 
 // 8) створити функцію яка приймає масив чисел та повертає середнє арифметичне його значень.
-// let arrAverage = [100, 250, 50, 168, 120, 345];
+//  let arrAverage = [100, 250, 50, 168, 120, 345];
 //
-// function averageOfNums(whatArrToChek) {
-//     let a = 0;
-//     for (i = 0; i < whatArrToChek.length; i++) {
-//         a += whatArrToChek[i];
-//     }
-//     a = a / whatArrToChek.length;
-//     console.log(a);
-// }
-// averageOfNums(arrAverage);
+//  function averageOfNums(whatArrToChek) {
+//      let a = 0;
+//      for (i = 0; i < whatArrToChek.length; i++) {
+//          a += whatArrToChek[i];
+//      }
+//      a = a / whatArrToChek.length;
+//      return a;
+//  }
+//  console.log(averageOfNums(arrAverage));
 //
-// let numbersOfArr2 = [8,9,4,12];
-// averageOfNums(numbersOfArr2);
+//  let numbersOfArr2 = [8,9,4,12];
+//  console.log(averageOfNums(numbersOfArr2));
 
 // 9) Створити функцію яка приймає масив будь яких объектів, та повертає масив ключів всіх обєктів
 // let arrOfObj = [{name: 'Dima', age: 13}, {model: 'Camry'}];
@@ -164,20 +219,20 @@
 // arrFromObj(arr);
 
 // 10) Створити функцію яка приймає масив будь яких объектів, та повертає масив значень всіх обєктів
-//
+
 // let arrOfObj = [{name: 'Dima', age: 13}, {model: 'Camry'}];
 //
-// function arrFromObjVal(whatArrToChek) {
-//     let arr = [];
-//     for (i = 0; i < whatArrToChek.length; i++) {
-//         let a = Object.values(whatArrToChek[i]);
-//         arr.push(a);
-//     }
-//     console.log(arr)
-// }
+//   function arrFromObjVal(whatArrToChek) {
+//       let arr = [];
+//       for (i = 0; i < whatArrToChek.length; i++) {
+//           let a = Object.values(whatArrToChek[i]);
+//           arr.push(a);
+//       }
+//        return arr;
+//   }
 //
-// arrFromObjVal(arrOfObj)
-//
+//   console.log(arrFromObjVal(arrOfObj));
+
 
 // - Дано список імен.
 // let n1 = '    Harry       Potter      '
@@ -190,18 +245,18 @@
 // console.log(n2);
 // console.log(n3);
 //
-// function gapTrimmer(whatToTrimm) {
-//     let trimmed = whatToTrimm.trim();
-//     let splited = trimmed.split(' ');
-//     let emp = [];
-//     for (i = 0; i < splited.length; i++) {
-//         if (splited[i] !== '') {
-//             emp.push(splited[i]);
-//         }
-//     }
-//     let b = emp.join(' ');
-//     console.log(b);
-// }
+//function gapTrimmer(whatToTrimm) {
+//    let trimmed = whatToTrimm.trim();
+//    let splited = trimmed.split(' ');
+//    let emp = [];
+//    for (i = 0; i < splited.length; i++) {
+//        if (splited[i] !== '') {
+//            emp.push(splited[i]);
+//        }
+//    }
+//    let b = emp.join(' ');
+//    console.log(b);
+//}
 //
 // gapTrimmer(n1);
 // gapTrimmer(n2);
