@@ -245,45 +245,51 @@
 // console.log(n2);
 // console.log(n3);
 //
-//function gapTrimmer(whatToTrimm) {
-//    let trimmed = whatToTrimm.trim();
-//    let splited = trimmed.split(' ');
-//    let emp = [];
-//    for (i = 0; i < splited.length; i++) {
-//        if (splited[i] !== '') {
-//            emp.push(splited[i]);
-//        }
-//    }
-//    let b = emp.join(' ');
-//    console.log(b);
-//}
+//  function gapTrimmer(whatToTrimm) {
+//      let trimmed = whatToTrimm.trim();
+//      let splited = trimmed.split(' ');
+//      let emp = [];
+//      for (i = 0; i < splited.length; i++) {
+//          if (splited[i] ! '') {
+//              emp.push(splited[i]);
+//          }
+//      }
+//      let b = emp.join(' ');
+//      console.log(b);
+//  }
 //
 // gapTrimmer(n1);
 // gapTrimmer(n2);
 // gapTrimmer(n3);
 
 // 11) створити функцію  яка скаладає значення елементів з однаковими індексами  та повертає новий результуючий масив.
-// let a = [1, 2, 3, 4];
-// let b = [2, 3, 4, 5, 5, 5, 55];
-// let h = [2, 3, 4, 5, 5, 5, 55, 1000, 'h', true];
-// function sumAB(arr1,arr2) {
-//     let c = [];
-//     arr1.length = arr2.length;
-//     c.length = arr1.length;
-//        for (i = 0; i < c.length; i++) {
-//         c[i] = arr1[i] + arr2[i];
-//         if (typeof arr1[i] === "undefined") {
-//             c[i] = arr2[i];
-//         } else {
-//             c[i] = arr1[i];
-//         }
-//         if (typeof c[i] !== "number") {
-//             c[i] = NaN;
-//         }
-//     }
-//     console.log(c);
-// }
-//
-// sumAB(a,h);
-// sumAB(a,b);
-// sumAB(b,h);
+let a = [1, 2, 'd', null, 35,2,5,6,7,4,5,0];
+let b = [2, 3, 4, 5, 5, 5, 55];
+let h = [2, 3, 4, 5, 5, 5, 55, 20, 'h', true];
+
+function sumAB(arr1, arr2) {
+    let c = [];
+    if (arr1.length > arr2.length) {
+        c.length = arr1.length
+    } else {
+        c.length = arr2.length
+    }
+    for (i = 0; i < c.length; i++) {
+        c[i] = arr1[i] + arr2[i];
+
+        if (typeof arr2[i] === "undefined") {
+            c[i] = arr1[i];
+        }
+        if (typeof arr1[i] === "undefined") {
+            c[i] = arr2[i];
+        }
+        if (typeof c[i] !== "number") {
+            c[i] = NaN;
+        }
+    }
+    return c;
+}
+
+console.log(sumAB(a, b));
+console.log(sumAB(a, h));
+console.log(sumAB(h, b));

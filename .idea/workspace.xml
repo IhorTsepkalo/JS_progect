@@ -76,7 +76,7 @@
       <workItem from="1617467713312" duration="323000" />
       <workItem from="1617468090526" duration="90000" />
       <workItem from="1617468196051" duration="1843000" />
-      <workItem from="1617474080418" duration="48842000" />
+      <workItem from="1617474080418" duration="51943000" />
     </task>
     <task id="LOCAL-00001" summary="JS_HW2 Except an additional tasks.">
       <created>1616720587235</created>
@@ -176,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617582751352</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="functions - some tasks(edited)">
+      <created>1617657133513</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1617657133513</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +213,7 @@
     <MESSAGE value="DOM and JSON" />
     <MESSAGE value="functions - some tasks" />
     <MESSAGE value="functions - some tasks." />
-    <option name="LAST_COMMIT_MESSAGE" value="functions - some tasks." />
+    <MESSAGE value="functions - some tasks(edited)" />
+    <option name="LAST_COMMIT_MESSAGE" value="functions - some tasks(edited)" />
   </component>
 </project>
