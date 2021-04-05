@@ -207,3 +207,28 @@
 // gapTrimmer(n2);
 // gapTrimmer(n3);
 
+// 11) створити функцію  яка скаладає значення елементів з однаковими індексами  та повертає новий результуючий масив.
+// let a = [1, 2, 3, 4];
+// let b = [2, 3, 4, 5, 5, 5, 55];
+// let h = [2, 3, 4, 5, 5, 5, 55, 1000, 'h', true];
+// function sumAB(arr1,arr2) {
+//     let c = [];
+//     arr1.length = arr2.length;
+//     c.length = arr1.length;
+//        for (i = 0; i < c.length; i++) {
+//         c[i] = arr1[i] + arr2[i];
+//         if (typeof arr1[i] === "undefined") {
+//             c[i] = arr2[i];
+//         } else {
+//             c[i] = arr1[i];
+//         }
+//         if (typeof c[i] !== "number") {
+//             c[i] = NaN;
+//         }
+//     }
+//     console.log(c);
+// }
+//
+// sumAB(a,h);
+// sumAB(a,b);
+// sumAB(b,h);
