@@ -259,6 +259,7 @@
 //  console.log(gapTrimmer(n2));
 //  console.log(gapTrimmer(n3));
 
+/////// New tasks////////////////////
 // 11) створити функцію  яка скаладає значення елементів з однаковими індексами  та повертає новий результуючий масив.
 // let a = [1, 2, 'd', null, 35,2,5,6,7,4,5,0];
 // let b = [2, 3, 4, 5, 5, 5, 55];
@@ -345,7 +346,7 @@
 //     let arr = [];
 //     for (i = 0; i < whatArrToChek.length; i++) {
 //         let a = Object.keys(whatArrToChek[i]);
-//         arr.push(a)
+//         arr.push(a);
 //     }
 //     return arr;
 // }
@@ -373,6 +374,24 @@
 // keysValues(prompt('Whoud you like to see: keys OR values'));
 // keysValues('keys');
 // keysValues('values');
+
+// Cоздать функцию которая принимает число и возвращает  текст как в примере:
+// 3275  —>  "3000 + 200 + 70 +5"
+// let num = 3275;
+//
+// function splitter(whatNumToChange) {
+//     str = `${whatNumToChange}`;
+//     splited = str.split('');
+//     splited.splice(`${splited.length - 2}`, 1, `${splited[splited.length - 2]}0`);
+//     splited.splice(`${splited.length - 3}`, 1, `${splited[splited.length - 3]}00`);
+//     splited.splice(`${splited.length - 4}`, 1, `${splited[splited.length - 4]}00`);
+//     joined = splited.join(' + ')
+//
+//     console.log(joined);
+//     return joined;
+// }
+//
+// splitter(num);
 
 
 
