@@ -147,20 +147,16 @@
 // Or.............. Without Math.max.............
 //
 // let numbersArr1 = [8, -9, 9];
-//
 // function smalestFromArr(whatArrToChek) {
 //     let min = 0;
 //     for (i = 0; i < whatArrToChek.length; i++) {
-//
 //         if (min > whatArrToChek[i] || min === 0) {
 //             min = whatArrToChek[i];
 //         }
 //     }
 //     return min;
 // }
-//
 // console.log(smalestFromArr(numbersArr1));
-//
 // let a = [-1, 55, 46];
 // console.log(smalestFromArr(a));
 //
@@ -170,19 +166,21 @@
 
 // 7) створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його.
 // let arrAverage = [100, 250, 50, 168, 120, 345];
-// function sumOfArr (whatArrToSumm) {
-// let a = 0;
-// for (i = 0; i < whatArrToSumm.length; i++) {
-//     a += whatArrToSumm[i]
+//
+// function sumOfArr(whatArrToSumm) {
+//     let a = 0;
+//     for (i = 0; i < whatArrToSumm.length; i++) {
+//         a += whatArrToSumm[i]
+//     }
+//     console.log(a)
 // }
-// console.log(a)
-// }
+//
 // sumOfArr(arrAverage);
 //
-// let numbersOfArr2 = [8,9,4,12];
+// let numbersOfArr2 = [8, 9, 4, 12];
 // sumOfArr(numbersOfArr2);
 //
-// let w = [33,55];
+// let w = [33, 55];
 // sumOfArr(w);
 
 // 8) створити функцію яка приймає масив чисел та повертає середнє арифметичне його значень.
@@ -292,3 +290,49 @@
 // console.log(sumAB(a, b));
 // console.log(sumAB(a, h));
 // console.log(sumAB(h, b));
+
+//  Сворити функцію яка буде переносити елементи з значенням 0 у кінець маисву. Зберігаючи при цьому порядок не нульових значень.
+// EXAMPLE:
+// [1,0,6,0,3] => [1,6,3,0,0]
+// [0,1,2,3,4] => [1,2,3,4,0]
+// [0,0,1,0]   => [1,0,0,0]
+
+// function zeroToEnd() {
+//     let arr1 = [];
+//     let arr2 = [];
+//     for (i = 0; i < arguments.length; i++) {
+//         if (arguments[i] !== 0) {
+//             arr1.push(arguments[i])
+//         } else {
+//             arr2.push(arguments[i])
+//         }
+//     }
+//     for (k = 0; k < arr2.length; k++) {
+//         arr1.push(arr2[k])
+//     }
+//     return arr1;
+// }
+//
+// let a = zeroToEnd(1, 3, 5, 6, 0,0,0,0,0,0,0, 5, 6, 7, 8, 0, 7,5,6,7,8,9,0);
+// console.log(a);
+
+// - створити функцію яка приймає будь-яку кількість чисел, повертає найменьше, а виводить найбільше (Math використовувати заборонено);
+//
+// function MinMax() {
+//     let min = 0;
+//     for (i = 0; i < arguments.length; i++) {
+//         if (min > arguments[i] || min === 0) {
+//             min = arguments[i];
+//         }
+//     }
+//     let max = 0;
+//     for (i = 0; i < arguments.length; i++) {
+//         if (max < arguments[i]) {
+//             max = arguments[i];
+//         }
+//     }
+//     console.log(max);
+//     return min;
+// }
+// let x = MinMax(1,2,3,4,5,-20,333);
+// console.log(x);
