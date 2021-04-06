@@ -296,7 +296,7 @@
 // [1,0,6,0,3] => [1,6,3,0,0]
 // [0,1,2,3,4] => [1,2,3,4,0]
 // [0,0,1,0]   => [1,0,0,0]
-
+//
 // function zeroToEnd() {
 //     let arr1 = [];
 //     let arr2 = [];
@@ -336,3 +336,43 @@
 // }
 // let x = MinMax(1,2,3,4,5,-20,333);
 // console.log(x);
+
+// - Взяти задачі з завдання 10 та 9 та обєднати їх в одну динамічну функцію.
+//   Що б я міг сам вибрати повернути мені масив ключів чи масив значень.
+// let arr = [{name: 'Dima', age: 13, weight:75}, {model: 'Camry'}, {country: 'Ukraine', city:'Lviv'}];
+//
+// function arrFromObjKeys(whatArrToChek) {
+//     let arr = [];
+//     for (i = 0; i < whatArrToChek.length; i++) {
+//         let a = Object.keys(whatArrToChek[i]);
+//         arr.push(a)
+//     }
+//     return arr;
+// }
+//
+// function arrFromObjVal(whatArrToChek) {
+//     let arr = [];
+//     for (i = 0; i < whatArrToChek.length; i++) {
+//         let a = Object.values(whatArrToChek[i]);
+//         arr.push(a);
+//     }
+//      return arr;
+// }
+//
+// function keysValues (whatToGet) {
+//    let a = 0;
+//       if (whatToGet === 'keys') {
+//        a = console.log(arrFromObjKeys(arr));
+//    }
+//    else if (whatToGet === 'values') {
+//        a = console.log(arrFromObjVal(arr));
+//    }
+//    else a = console.error('Wrong Input. Please try again');
+//    return a;
+// }
+// keysValues(prompt('Whoud you like to see: keys OR values'));
+// keysValues('keys');
+// keysValues('values');
+
+
+
