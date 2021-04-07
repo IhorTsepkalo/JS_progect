@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a4e520d-83bc-4bd6-a44a-189d681ffa55" name="Default Changelist" comment="" />
+    <list default="true" id="5a4e520d-83bc-4bd6-a44a-189d681ffa55" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS_HW4_FUNCTIONS/main_JS_HW4_FUNCTIONS.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS_HW4_FUNCTIONS/main_JS_HW4_FUNCTIONS.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -74,6 +77,8 @@
       <workItem from="1617468090526" duration="90000" />
       <workItem from="1617468196051" duration="1843000" />
       <workItem from="1617474080418" duration="81891000" />
+      <workItem from="1617785294073" duration="2620000" />
+      <workItem from="1617790303411" duration="115000" />
     </task>
     <task id="LOCAL-00001" summary="JS_HW2 Except an additional tasks.">
       <created>1616720587235</created>
