@@ -393,5 +393,32 @@
 //
 // splitter(num);
 
-
+// Вирівняти багаторівневий масив в однорівневий [1,3, ['Hello, 'Wordd', [9,6,1]], ['oops'], 9]
+// flat використовувати заборонено.
+// let arr = [1, 3, ['Hello', 'World', [9, 6, 1]], ['oops'], 9];
+// console.log(typeof arr[2])
+//
+// function toOneLevel(whatArrToChange) {
+//     let onelayerArr = [];
+//     for (i = 0; i < whatArrToChange.length; i++) {
+//         if (typeof whatArrToChange[i] === 'object') {
+//             let a = arr[i];
+//             for (k = 0; k < a.length; k++) {
+//                 if (typeof a[k] === 'object') {
+//                     let x = a[k];
+//                     for (y = 0; y < x.length; y++) {
+//                         m = x[y];
+//                         onelayerArr.push(m);
+//                     }
+//                 } else {
+//                     onelayerArr.push(a[k])
+//                 }
+//             }
+//         } else {
+//             onelayerArr.push(whatArrToChange[i])
+//         }
+//     }
+//     return onelayerArr;
+// }
+// console.log(toOneLevel(arr));
 
