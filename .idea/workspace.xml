@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a4e520d-83bc-4bd6-a44a-189d681ffa55" name="Default Changelist" comment="functions - some tasks. All the task are DONE.+Additional">
+      <change afterPath="$PROJECT_DIR$/JS_HW5_OOP_CLASS/index_JS_HW5_0PP_CLASS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_HW5_OOP_CLASS/main_JS_HW5_OOP_CLASS.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS_HW4_FUNCTIONS/main_JS_HW4_FUNCTIONS.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS_HW4_FUNCTIONS/main_JS_HW4_FUNCTIONS.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -80,7 +81,7 @@
       <workItem from="1617785294073" duration="2620000" />
       <workItem from="1617790303411" duration="115000" />
       <workItem from="1617790573686" duration="3000000" />
-      <workItem from="1617795785700" duration="5474000" />
+      <workItem from="1617795785700" duration="24964000" />
     </task>
     <task id="LOCAL-00001" summary="JS_HW2 Except an additional tasks.">
       <created>1616720587235</created>
@@ -229,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617790738027</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="functions - some tasks. All the task are DONE.+Additional">
+      <created>1617809020385</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1617809020385</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
