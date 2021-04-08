@@ -134,9 +134,7 @@ class GamingPC extends PC {
         this.FPC = (this.FPC * 2);
 
     }
-if (startGame) {
-    this.power = this.power*0.0001;
-}
+
 }
 
 let gamingPC1 = new GamingPC();

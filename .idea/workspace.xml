@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a4e520d-83bc-4bd6-a44a-189d681ffa55" name="Default Changelist" comment="functions - some tasks. All the task are DONE.+Additional">
-      <change afterPath="$PROJECT_DIR$/JS_HW5_OOP_CLASS/index_JS_HW5_0PP_CLASS.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS_HW5_OOP_CLASS/main_JS_HW5_OOP_CLASS.js" afterDir="false" />
+    <list default="true" id="5a4e520d-83bc-4bd6-a44a-189d681ffa55" name="Default Changelist" comment="Home tasks are done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +79,9 @@
       <workItem from="1617785294073" duration="2620000" />
       <workItem from="1617790303411" duration="115000" />
       <workItem from="1617790573686" duration="3000000" />
-      <workItem from="1617795785700" duration="24964000" />
+      <workItem from="1617795785700" duration="25022000" />
+      <workItem from="1617915626243" duration="1544000" />
+      <workItem from="1617917243465" duration="527000" />
     </task>
     <task id="LOCAL-00001" summary="JS_HW2 Except an additional tasks.">
       <created>1616720587235</created>
@@ -237,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617809020385</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Home tasks are done">
+      <created>1617915568173</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1617915568174</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +277,7 @@
     <MESSAGE value="functions - some tasks(edited)" />
     <MESSAGE value="functions - some tasks. All the task are DONE." />
     <MESSAGE value="functions - some tasks. All the task are DONE.+Additional" />
-    <option name="LAST_COMMIT_MESSAGE" value="functions - some tasks. All the task are DONE.+Additional" />
+    <MESSAGE value="Home tasks are done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home tasks are done" />
   </component>
 </project>
