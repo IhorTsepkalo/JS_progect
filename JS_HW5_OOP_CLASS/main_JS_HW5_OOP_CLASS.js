@@ -318,7 +318,42 @@
 // prince1.findCinderella();
 
 
+// -------------------------------------------- Додатково-----------------------------------------
 
+//-  Створити класс  для об'єкту який описує теги
+// Властивості
+//  -назва тегу
+//  - опис його дій
+//  - масив з атрибутами (2-3 атрибути максимум)
+//  Кожен атрибут описати як окремий який буде містити
+//  -назву атрибуту
+//  -опис дії атрибуту
+//Приклад результату
+//    {
+//         titleOfTag: 'area',
+//         action: `Каждый элемент <area> определяет активные области изображения, которые являются ссылками...`,
+//         attrs: [
+//         {titleOfAttr: 'accesskey', actionOfAttr: 'Переход к области с помощью комбинации клавиш'},
+//         {/*some props and values*/},
+//         {/*...*/},
+//         {/*...*/},
+//         ]
+//
+//    }
 
-
+// class TagDiscription {
+//     constructor(name, performance) {
+//         this.nameOfTag = name;
+//         this.performanceOfTag = performance;
+//         this.attributes = [new Attribute('align left', 'Выравнивание заголовка по левому краю.'), new Attribute('align right', 'Выравнивание заголовка по правому краю.'), new Attribute('align center', 'Выравнивание заголовка по центру.'), new Attribute('align justify', 'Выравнивание заголовка по ширине.')];
+//     }
+// }
+//
+// function Attribute(nameOfAtt, perfOfAtt) {
+//     this.nameOfAtt = nameOfAtt;
+//     this.perfOfAtt = perfOfAtt;
+// }
+//
+// let h1Tag = new TagDiscription('h1', 'представляет собой наиболее важный заголовок первого уровня');
+// console.log(h1Tag)
 
