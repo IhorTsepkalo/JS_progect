@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a4e520d-83bc-4bd6-a44a-189d681ffa55" name="Default Changelist" comment="Home tasks + Class tasks">
+    <list default="true" id="5a4e520d-83bc-4bd6-a44a-189d681ffa55" name="Default Changelist" comment="Home tasks + Class tasks + Additional">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS_HW5_OOP_CLASS/main_JS_HW5_OOP_CLASS.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS_HW5_OOP_CLASS/main_JS_HW5_OOP_CLASS.js" afterDir="false" />
     </list>
@@ -83,7 +83,7 @@
       <workItem from="1617795785700" duration="25022000" />
       <workItem from="1617915626243" duration="1544000" />
       <workItem from="1617917243465" duration="5768000" />
-      <workItem from="1617957548256" duration="12944000" />
+      <workItem from="1617957548256" duration="14658000" />
     </task>
     <task id="LOCAL-00001" summary="JS_HW2 Except an additional tasks.">
       <created>1616720587235</created>
@@ -260,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617966606743</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Home tasks + Class tasks + Additional">
+      <created>1617971383158</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1617971383158</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,6 +303,7 @@
     <MESSAGE value="Home tasks are done" />
     <MESSAGE value="Home tasks are done." />
     <MESSAGE value="Home tasks + Class tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home tasks + Class tasks" />
+    <MESSAGE value="Home tasks + Class tasks + Additional" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home tasks + Class tasks + Additional" />
   </component>
 </project>

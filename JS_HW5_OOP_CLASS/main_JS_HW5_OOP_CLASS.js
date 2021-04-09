@@ -341,19 +341,24 @@
 //
 //    }
 
+
 // class TagDiscription {
-//     constructor(name, performance) {
-//         this.nameOfTag = name;
-//         this.performanceOfTag = performance;
-//         this.attributes = [new Attribute('align left', 'Выравнивание заголовка по левому краю.'), new Attribute('align right', 'Выравнивание заголовка по правому краю.'), new Attribute('align center', 'Выравнивание заголовка по центру.'), new Attribute('align justify', 'Выравнивание заголовка по ширине.')];
-//     }
-// }
+//      constructor(name, performance) {
+//          this.nameOfTag = name;
+//          this.performanceOfTag = performance;
+//          this.attributes = [attr1, attr2, attr4, attr4]
 //
-// function Attribute(nameOfAtt, perfOfAtt) {
-//     this.nameOfAtt = nameOfAtt;
-//     this.perfOfAtt = perfOfAtt;
-// }
+//      }
+//  }
+// let attr1 = new Attribute('align left', 'Выравнивание заголовка по левому краю.');
+// let attr2 = new Attribute('align right', 'Выравнивание заголовка по правому краю');
+// let attr3 = new Attribute('align center', 'Выравнивание заголовка по центру');
+// let attr4 = new Attribute('align justify', 'Выравнивание заголовка по ширине');
+// function Attribute (nameOfAtt, perfOfAtt) {
+//      this.nameOfAtt = nameOfAtt;
+//      this.perfOfAtt = perfOfAtt;
+//  }
 //
-// let h1Tag = new TagDiscription('h1', 'представляет собой наиболее важный заголовок первого уровня');
-// console.log(h1Tag)
+//  let h1Tag = new TagDiscription ('h1', 'представляет собой наиболее важный заголовок первого уровня') ;
+//      console.log(h1Tag);
 
