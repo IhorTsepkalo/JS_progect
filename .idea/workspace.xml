@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a4e520d-83bc-4bd6-a44a-189d681ffa55" name="Default Changelist" comment="Home tasks are done">
+    <list default="true" id="5a4e520d-83bc-4bd6-a44a-189d681ffa55" name="Default Changelist" comment="Home tasks are done.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS_HW5_OOP_CLASS/main_JS_HW5_OOP_CLASS.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS_HW5_OOP_CLASS/main_JS_HW5_OOP_CLASS.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +82,8 @@
       <workItem from="1617790573686" duration="3000000" />
       <workItem from="1617795785700" duration="25022000" />
       <workItem from="1617915626243" duration="1544000" />
-      <workItem from="1617917243465" duration="527000" />
+      <workItem from="1617917243465" duration="5768000" />
+      <workItem from="1617957548256" duration="8877000" />
     </task>
     <task id="LOCAL-00001" summary="JS_HW2 Except an additional tasks.">
       <created>1616720587235</created>
@@ -244,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617915568174</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Home tasks are done.">
+      <created>1617917947645</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1617917947645</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,6 +287,7 @@
     <MESSAGE value="functions - some tasks. All the task are DONE." />
     <MESSAGE value="functions - some tasks. All the task are DONE.+Additional" />
     <MESSAGE value="Home tasks are done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home tasks are done" />
+    <MESSAGE value="Home tasks are done." />
+    <option name="LAST_COMMIT_MESSAGE" value="Home tasks are done." />
   </component>
 </project>
