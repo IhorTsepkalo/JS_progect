@@ -341,7 +341,6 @@
 //
 //    }
 
-
 // class TagDiscription {
 //      constructor(name, performance) {
 //          this.nameOfTag = name;
@@ -361,4 +360,3 @@
 //
 //  let h1Tag = new TagDiscription ('h1', 'представляет собой наиболее важный заголовок первого уровня') ;
 //      console.log(h1Tag);
-
