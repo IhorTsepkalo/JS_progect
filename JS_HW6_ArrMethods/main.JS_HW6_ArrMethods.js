@@ -419,16 +419,74 @@ let userusersWithAddressTotalAge = usersWithAddress.reduce((acc, currentValue) =
 }, 0);
 console.log(userusersWithAddressTotalAge);
 
-//-------------------------Ті, хто одружений і старий за 30 має отримати обєкти child і попасти в новий масив (reduce)
+//-------------Ті, хто одружений і старий за 30 має отримати обєкти child і попасти в новий масив (reduce)
 let usersWithAddressMarriedAgeMore30Child = usersWithAddress.reduce((acc, curentValue) => {
-   if (curentValue.isMarried && curentValue.age > 30) {
-       curentValue.child = true;
+    if (curentValue.isMarried && curentValue.age > 30) {
+        curentValue.child = true;
 
-       acc.push(curentValue);
-   }
-   return acc
-},[]);
+        acc.push(curentValue);
+    }
+    return acc
+}, []);
 console.log(usersWithAddressMarriedAgeMore30Child);
+
+
+// -------------------------------------- ДОДАТКОВО-------------------------------------
+
+// Створити обєкт автомобіля з полями:
+//     Марка автомобля, потужність двигуна, власник, ціна, рік випуску.
+//     Власник автомобіля теж має бути обєкт, у якого є поля
+// Імя, вік, стаж водіння.
+let car1 = {producer: 'bmw', power: 450, driver: {name: 'Alex', age: 35, expirience: 5}, price: 3000, release: 2020};
+let car2 = {producer: 'ford', power: 200, driver: {name: 'Viktor', age: 25, expirience: 7}, price: 5000, release: 2018};
+let car3 = {producer: 'bmw', power: 300, driver: {name: 'Oleg', age: 45, expirience: 14}, price: 7000, release: 2013};
+let car4 = {producer: 'mercedes', power: 300, driver: {name: 'Petro', age: 33, expirience: 9}, price: 8000, release: 2017};
+let car5 = {producer: 'toyota', power: 250, driver: {name: 'Petro', age: 31, expirience: 10}, price: 6000, release: 2019};
+let car6 = {producer: 'toyota', power: 240, driver: {name: 'Alex', age: 33, expirience: 10}, price: 9000, release: 2021};
+let car7 = {producer: 'bmw', power: 300, driver: {name: 'Viktor', age: 30, expirience: 3}, price: 5000, release: 2015};
+let car8 = {producer: 'subaru', power: 400, driver: {name: 'Igor', age: 25, expirience: 5}, price: 2000, release: 2010};
+let car9 = {producer: 'subaru', power: 150, driver: {name: 'Petro', age: 46, expirience: 20}, price: 3000, release: 2009};
+let car10 = {producer: 'kia', power: 400, driver: {name: 'Oleg', age: 43, expirience: 8}, price: 7000, release: 2014};
+let car11 = {producer: 'ford', power: 450, driver: {name: 'Viktor', age: 39, expirience: 12}, price: 8000, release: 2018};
+let car12 = {producer: 'kia', power: 350, driver: {name: 'Max', age: 34, expirience: 12}, price: 5000, release: 2016};
+let car13 = {producer: 'mercedes', power: 400, driver: {name: 'Oleg', age: 29, expirience: 7}, price: 3000, release: 2011};
+
+let carss = [];
+carss.push(car1, car2, car3, car4, car5, car6, car7, car8, car9, car10, car11, car12, car13);
+
+//--Зробили половину автопарку ремонт мотору, що збільшить потужність автомобілів на 10% (переприсвоєння змінної потужності).
+//---На відремонтовані автомобілі найняти нових водіїв (переприсвоїти змінну водій).
+// ---Далі необхідно рати кожну другу машинку (цикл з кроком в 2), та робити їй підвищення потужності двигуна на 10% та ціну на 5%
+let carssUpgrated= carss.map((value, index) => {
+    if (index % 2 !==0) {
+       value.power += value.power * 0.1;
+       value.price += value.price * 0.05;
+        value.driver.name = 'Li';
+           }
+    value.power;
+    return value;
+});
+console.log(carssUpgrated);
+
+//---Після того зробити перевірку досвіду ВСІХ наших водіїв. Якщо досвід водія менший за 5 років, але його вік більший за 25,
+// то необідно відправити його на курси підвищення кваліфікації, що збільшить йому досвід на 1 рік.
+carssDriversToLearn = carss.filter((value) => {
+    if (value.driver.expirience < 5 && value.driver.age > 25) {
+        value.driver.expirience += 1;
+            }
+    return value;
+});
+console.log(carssDriversToLearn);
+
+//--- Також спробуйте порахувати суму, яку потрібно потратити для покупки всіх цих авто в циклі
+carssTotalPrice = carss.reduce((acc, currentValue) => {
+    return acc + currentValue.price;
+}, 0);
+console.log(carssTotalPrice);
+
+
+
+
 
 
 
