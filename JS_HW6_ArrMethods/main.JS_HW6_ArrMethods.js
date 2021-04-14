@@ -485,6 +485,30 @@ carssTotalPrice = carss.reduce((acc, currentValue) => {
 console.log(carssTotalPrice);
 
 
+// Дано робочі години програміста. Клієнт хоче зустрітись з ним в бажаний час. Знайти в робочих годинах програміста відповідний час для зустрічі, який би співпадав з вибраним клієнтом часом.
+
+let programmerSchedule = [
+    {day: 'Monday', from: 13, to: 17},
+    {day: 'Tuesday', from: 11, to: 19},
+    {day: 'Wednesday', from: 10, to: 18},
+    {day: 'Thurthday', from: 12, to: 20},
+    {day: 'Friday', from: 9, to: 21}
+];
+let customerProposal = 6;
+
+function recursion (arrToIter, index = 0, arr = []) {
+    if (index < arrToIter.length) {
+        if (arrToIter[index].to > customerProposal && arrToIter[index].from <= customerProposal) {
+        arr.push(arrToIter[index])}
+        return recursion (arrToIter, ++index, arr);
+    }
+    return arr;
+}
+
+let meetingSpots = recursion(programmerSchedule);
+console.log(meetingSpots);
+
+
 
 
 
