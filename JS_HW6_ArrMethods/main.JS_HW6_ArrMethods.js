@@ -504,7 +504,6 @@ function recursion (arrToIter, index = 0, arr = []) {
     }
     return arr;
 }
-
 let meetingSpots = recursion(programmerSchedule);
 console.log(meetingSpots);
 
