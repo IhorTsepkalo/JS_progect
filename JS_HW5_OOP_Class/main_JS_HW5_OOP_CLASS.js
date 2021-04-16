@@ -345,7 +345,7 @@
 //      constructor(name, performance) {
 //          this.nameOfTag = name;
 //          this.performanceOfTag = performance;
-//          this.attributes = [attr1, attr2, attr4, attr4]
+//          this.attributes = [attr1, attr2, attr3, attr4]
 //
 //      }
 //  }

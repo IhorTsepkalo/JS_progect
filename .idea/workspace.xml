@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a4e520d-83bc-4bd6-a44a-189d681ffa55" name="Default Changelist" comment="Home tasks + Class tasks + Additional">
+    <list default="true" id="5a4e520d-83bc-4bd6-a44a-189d681ffa55" name="Default Changelist" comment="2 tasks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS_HW5_OOP_CLASS/main_JS_HW5_OOP_CLASS.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS_HW5_OOP_CLASS/main_JS_HW5_OOP_CLASS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS_HW5_OOP_Class/main_JS_HW5_OOP_CLASS.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS_HW5_OOP_Class/main_JS_HW5_OOP_CLASS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS_HW6_ArrMethods/main.JS_HW6_ArrMethods.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS_HW6_ArrMethods/main_JS_HW6_ArrMethods.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS_HW7_HtmlEvents/index_JS_HW7_HtmlEvents.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS_HW7_HtmlEvents/index_JS_HW7_HtmlEvents.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS_HW7_HtmlEvents/main_JS_HW7_HtmlEvents.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS_HW7_HtmlEvents/main_JS_HW7_HtmlEvents.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +87,7 @@
       <workItem from="1617915626243" duration="1544000" />
       <workItem from="1617917243465" duration="5768000" />
       <workItem from="1617957548256" duration="14658000" />
+      <workItem from="1618222436292" duration="59059000" />
     </task>
     <task id="LOCAL-00001" summary="JS_HW2 Except an additional tasks.">
       <created>1616720587235</created>
@@ -267,7 +271,42 @@
       <option name="project" value="LOCAL" />
       <updated>1617971383158</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="renamed">
+      <created>1618151350598</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1618151350598</updated>
+    </task>
+    <task id="LOCAL-00028" summary="All the tasks are done">
+      <created>1618227542743</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1618227542743</updated>
+    </task>
+    <task id="LOCAL-00029" summary="All the tasks are done + Recersion">
+      <created>1618410186179</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1618410186179</updated>
+    </task>
+    <task id="LOCAL-00030" summary="All the tasks are done + Recursion">
+      <created>1618410233881</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1618410233881</updated>
+    </task>
+    <task id="LOCAL-00031" summary="2 tasks">
+      <created>1618526654413</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1618526654413</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,6 +343,12 @@
     <MESSAGE value="Home tasks are done." />
     <MESSAGE value="Home tasks + Class tasks" />
     <MESSAGE value="Home tasks + Class tasks + Additional" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home tasks + Class tasks + Additional" />
+    <MESSAGE value="Home tasks" />
+    <MESSAGE value="renamed" />
+    <MESSAGE value="All the tasks are done" />
+    <MESSAGE value="All the tasks are done + Recersion" />
+    <MESSAGE value="All the tasks are done + Recursion" />
+    <MESSAGE value="2 tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 tasks" />
   </component>
 </project>

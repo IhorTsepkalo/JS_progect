@@ -494,7 +494,7 @@ let programmerSchedule = [
     {day: 'Thurthday', from: 12, to: 20},
     {day: 'Friday', from: 9, to: 21}
 ];
-let customerProposal = 6;
+let customerProposal = 10;
 
 function recursion (arrToIter, index = 0, arr = []) {
     if (index < arrToIter.length) {
@@ -506,6 +506,18 @@ function recursion (arrToIter, index = 0, arr = []) {
 }
 let meetingSpots = recursion(programmerSchedule);
 console.log(meetingSpots);
+
+// Зробити глибоку копію обєкта/масиву.
+
+// const {...carsCopy} = carss;
+// console.log(carsCopy);
+// carsCopy[0]= 'ppp';
+// console.log(carsCopy[0]);
+// console.log(carss[0]);/// такий спосіб копіювання дає абсолютно незалежну від оригіналу копію лише на першому рівні вложеності. Якщо копія іде глибока, то всі рівні глибше першого дають відносну копію(посилання) і зміна копії спричиняє мутацію оригіналую.
+
+
+
+
 
 
 

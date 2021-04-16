@@ -173,22 +173,22 @@ inpButt.onclick = (ev) => {
 //     Перший аргумент визначає кількість строк.
 //     Другий параметр визначає кількість ячейок в кожній строці.
 //     Третій параметр визначає елемент в який потрібно таблицю додати.
- let tableEl = document.getElementById('table');
- const createTable = (str, col, targetTagId) => {
-     let target = document.getElementById(targetTagId);
-     let table = document.createElement('table');
-     for (let i = 0; i < str; i++) {
-         let tr = document.createElement('tr');
-         for (let j = 0; j < col; j++) {
-             let td = document.createElement('td');
-             td.innerText = `${i} - ${j}`
-             table.appendChild(td);
-         }
-         table.appendChild(tr)
-     }
-     target.appendChild(table);
- }
- createTable (3,2, 'table');
+let tableEl = document.getElementById('table');
+const createTable = (str, col, targetTagId) => {
+    let target = document.getElementById(targetTagId);
+    let table = document.createElement('table');
+    for (let i = 0; i < str; i++) {
+        let tr = document.createElement('tr');
+        for (let j = 0; j < col; j++) {
+            let td = document.createElement('td');
+            td.innerText = `${i} - ${j}`
+            table.appendChild(td);
+        }
+        table.appendChild(tr)
+    }
+    target.appendChild(table);
+}
+createTable(3, 2, 'table');
 // - Напишіть «Карусель» – стрічку зображень, яку можна гортати вліво-вправо нажаттям на стрілочки.
 let imgCont = document.getElementById('imgCont');
 let rightButt = document.getElementById('rightBut');
@@ -210,19 +210,17 @@ const imgArr = [
 ]
 currentInd = 0;
 leftButt.onclick = () => {
-    if (currentInd -1 < 0) {
+    if (currentInd - 1 < 0) {
         currentInd = imgArr.length - 1;
-    }
-    else {
+    } else {
         currentInd = currentInd - 1;
     }
     imgCont.src = imgArr[currentInd].url
 }
 rightButt.onclick = () => {
-    if (currentInd +1 > imgArr.length-1) {
+    if (currentInd + 1 > imgArr.length - 1) {
         currentInd = 0;
-    }
-    else {
+    } else {
         currentInd = currentInd + 1;
     }
     imgCont.src = imgArr[currentInd].url
