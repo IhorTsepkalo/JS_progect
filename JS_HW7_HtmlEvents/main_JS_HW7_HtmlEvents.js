@@ -1,3 +1,6 @@
+
+//////////// Home Work////////////////////
+
 console.log(document);
 // - Створити довільний елемент с id = text. використовуючи JavaScript, зробіть так, щоб при кліку на кнопку зникавл елемент с id="text".
 let elementId = document.getElementById('con');
@@ -225,3 +228,26 @@ rightButt.onclick = () => {
     }
     imgCont.src = imgArr[currentInd].url
 }
+
+//////////// Class Work////////////////////
+
+// - Сворити масив нецензцрних слів.
+//     Сворити інпут текстового типу.
+//     Якщо людина вводить слово і воно міститься в масиві нецензурних слів кинути алерт з попередженням.
+//     Потрібно перевіряти чи не містить ціле речення в собі погані слова
+//     Перевірку робити при натисканні на кнопку
+
+let obscWords = ['сука', 'дибіл', 'придурок'];
+let inputFormObsc = document.getElementById('inputFormObsc');
+let okBut = document.getElementById('buttObsc');
+let inpWord = document.getElementById('inputFormObsc');
+
+okBut.onclick =  () => {
+    for (obsWord of obscWords) {
+        let inpStr = inpWord.value.toLowerCase();
+        obsWord == inpStr ? alert ('obscence language') : console.log(inpWord.value)
+        inpStr.includes(obsWord) ? alert ('obscence language') : console.log(inpWord.value)
+    }
+  }
+
+
