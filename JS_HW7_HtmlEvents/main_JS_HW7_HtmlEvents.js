@@ -250,4 +250,9 @@ okBut.onclick =  () => {
     }
   }
 
+// range button
+  let rangeBut = document.getElementById('vol');
+rangeBut.onchange = (ev => console.log(rangeBut.value));
+
+
 
