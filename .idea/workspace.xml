@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a4e520d-83bc-4bd6-a44a-189d681ffa55" name="Default Changelist" comment="//">
+    <list default="true" id="5a4e520d-83bc-4bd6-a44a-189d681ffa55" name="Default Changelist" comment="HW + some Class Work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS_HW7_HtmlEvents/index_JS_HW7_HtmlEvents.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS_HW7_HtmlEvents/index_JS_HW7_HtmlEvents.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS_HW7_HtmlEvents/main_JS_HW7_HtmlEvents.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS_HW7_HtmlEvents/main_JS_HW7_HtmlEvents.js" afterDir="false" />
@@ -86,7 +86,7 @@
       <workItem from="1617915626243" duration="1544000" />
       <workItem from="1617917243465" duration="5768000" />
       <workItem from="1617957548256" duration="14658000" />
-      <workItem from="1618222436292" duration="62751000" />
+      <workItem from="1618222436292" duration="63076000" />
     </task>
     <task id="LOCAL-00001" summary="JS_HW2 Except an additional tasks.">
       <created>1616720587235</created>
@@ -319,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618574490639</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="HW + some Class Work">
+      <created>1618578445320</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1618578445320</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,7 +345,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="JS_HW2 Except an additional tasks" />
     <MESSAGE value="JS_HW2 + some additional tasks." />
     <MESSAGE value="one branche" />
     <MESSAGE value="JS_Home_Works" />
@@ -363,6 +369,7 @@
     <MESSAGE value="2 tasks" />
     <MESSAGE value="Home Work is done" />
     <MESSAGE value="//" />
-    <option name="LAST_COMMIT_MESSAGE" value="//" />
+    <MESSAGE value="HW + some Class Work" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW + some Class Work" />
   </component>
 </project>
