@@ -157,6 +157,60 @@
 // -- changeYear (newValue) - змінює рік випуску на значення newValue
 // -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і доавляет його в поточний об'єкт car
 
+// function Carconstructor(model, producer, release, maxSpeed, engineCapacity) {
+//     this.model = model;
+//     this.producer = producer;
+//     this.release = release;
+//     this.maxSpeed = maxSpeed;
+//     this.engineCapacity = engineCapacity;
+//     this.drive = function () {
+//         console.log(`їдемо зі швидкістю ${maxSpeed} на годину`)
+//     }
+//     this.info = function () {
+//         let info = {
+//             model,
+//             producer,
+//             release,
+//             maxSpeed,
+//             engineCapacity
+//         }
+//         console.log(info);
+//     }
+//     this.increaseMaxSpeed = function (increase) {
+//         this.maxSpeed += increase;
+//         console.log(`new max speed is ${this.maxSpeed}`);
+//     }
+//     this.changeYear = function (newValue) {
+//         this.release = newValue;
+//         console.log(this.release);
+//     }
+//     this.addDriver = function (name, age, exp) {
+//         this.driver = {name, age, exp}
+//         console.log(this.driver);
+//     }
+// }
+//
+// let car1 = new Carconstructor('Ford Fiesta', 'Ford Motor Company', 2018, 290, 1500)
+// console.log(car1);
+//
+// car1.drive();
+// car1.info();
+// car1.increaseMaxSpeed(50);
+// car1.changeYear(2021);
+// car1.addDriver('Luka', 29, 10);
+// console.log(car1);
+//
+// let car2 = new Carconstructor('BMW', 'BMW', 2015,320, 2000)
+// console.log(car2);
+// car2.drive();
+// car2.info();
+// car2.increaseMaxSpeed(-300);
+// car2.changeYear(2021);
+// car2.addDriver('Petro', 45, 10);
+// console.log(car2);
+//
+// Або>>>>>>>>>>>>>>>>>>>>>>>
+//
 // function CarConstructor (model, producer, releaseYear, maxSpeed, engCapacity) {
 //     this.model = model;
 //     this.producer = producer;
@@ -360,3 +414,62 @@
 //
 //  let h1Tag = new TagDiscription ('h1', 'представляет собой наиболее важный заголовок первого уровня') ;
 //      console.log(h1Tag);
+
+// Створити клас який дозволяє створювати об'єкти car, з властивостями модель, виробник, рік випуску, максимальна швидкість, об'єм двигуна. додати в об'єкт функції:
+// -- drive () - яка виводить в консоль "їдемо зі швидкістю {максимальна швидкість} на годину"
+// -- info () - яка виводить всю інформацію про автомобіль
+// -- increaseMaxSpeed (newSpeed) - яка підвищує значення максимальної швидкості на значення newSpeed
+// -- changeYear (newValue) - змінює рік випуску на значення newValue
+// -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і доавляет його в поточний об'єкт car
+// class Car {
+//     constructor(model, producer, releaseYear, maxSpeed, engCapacity) {
+//         this.model = model;
+//         this.producer = producer;
+//         this.releaseYear = releaseYear;
+//         this.maxSpeed = maxSpeed;
+//         this.engCapacity = engCapacity;
+//     }
+//
+//     drive() {
+//         console.log(`їдемо зі швидкістю ${this.maxSpeed} на годину`)
+//     }
+//
+//     info() {
+//         let info = {
+//             model: this.model,
+//             producer: this.producer,
+//             releaseYear: this.releaseYear,
+//             maxSpeed: this.maxSpeed,
+//             engCapacity: this.engineCapacity
+//         }
+//         console.log(info);
+//     }
+//
+//     increaseMaxSpeed(increase) {
+//         this.maxSpeed += increase;
+//         console.log(`new max speed is ${this.maxSpeed}`);
+//     }
+//
+//     changeYear(newValue) {
+//         this.release = newValue;
+//         console.log(this.release);
+//     }
+//
+//     addDriver(name, age, exp) {
+//         this.driver = {name, age, exp}
+//         console.log(this.driver);
+//     }
+//
+// }
+//
+// let carA = new Car('Ford Fiesta', 'Ford Motor Company', 2018, 290, 1500)
+// console.log(carA);
+// carA.info();
+// carA.drive();
+// carA.changeYear(1999);
+// carA.addDriver('dima', 26, 12);
+// carA.increaseMaxSpeed(100);
+// console.log(carA);
+
+
+

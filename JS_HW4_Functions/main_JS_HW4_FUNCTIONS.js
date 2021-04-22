@@ -421,4 +421,35 @@
 //     return onelayerArr;
 // }
 // console.log(toOneLevel(arr));
+//
+// Вирівняти багаторівневий масив в однорівневий [1,3, ['Hello, 'Wordd', [9,6,1]], ['oops'], 9]
+// flat використовувати заборонено.
+// let arr = [1, 3, ['Hello', 'World', [9, 6, 1, [333,[[[[909]]], 108]]]], ['oops'], 9];
+// let newFlatArr = [];
+//
+// let flatRecFunc = function (arrToFlat) {
+//     for (element of arrToFlat) {
+//         if (typeof element !== "object") {
+//             newFlatArr.push(element)
+//         }
+//         else {flatRecFunc(element)
+//         newFlatArr.push()}
+//     }
+//         return newFlatArr;
+// }
+//
+// let newFlat = flatRecFunc(arr);
+// console.log(newFlat);
 
+// функція повертає рандомне слово з масиву слів
+//
+// let wordsArr = ['lady', 'dog', 'cat', 'boy'];
+//
+// let randomWord = function (sourceArr) {
+//     let randNum = Math.floor(Math.random() * (sourceArr.length - 0) + 0);
+//     let rundomWord = sourceArr[randNum];
+//     return rundomWord;
+// }
+//
+// let rundumWordOfArr = randomWord(wordsArr);
+// console.log(rundumWordOfArr);
