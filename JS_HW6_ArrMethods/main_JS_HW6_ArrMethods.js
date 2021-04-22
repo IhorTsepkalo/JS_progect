@@ -515,12 +515,45 @@
 // console.log(carsCopy[0]);
 // console.log(carss[0]);/// такий спосіб копіювання дає абсолютно незалежну від оригіналу копію лише на першому рівні вложеності. Якщо копія іде глибока, то всі рівні глибше першого дають відносну копію(посилання) і зміна копії спричиняє мутацію оригіналую.
 
+// --------------------------------------------------------------
+//Задача: дан отсортированный по возрастанию массив целых чисел.
+// Необходимо вернуть наименьший и наибольший индекс заданного элемента.
+// Входные данные: arr — массив целых чисел значения которых по модулю не больше 10. Размер массива не более 10 элементов.
+// Вывод: наибольший и наименьший индекс в массиве заданного элемента. Если такого элемента нет в массиве, выведите -1.
+//
+// Пример:
+// Arr = [1, 2, 3, 4, 4, 4, 4, 7, 7, 9, 14]
+// 1. Key = 1
+// Answer: MinIndex = 0, MaxIndex = 0.
+// 2. Key = 4
+// Answer: MinIndex = 3, MaxIndex = 6.
 
-
-
-
-
-
+// let arr = [1, 2, 3, 4, 4, 4, 4, 7, 7, 9, 14, 4, 33];
+//
+// let maxAndMinIndex = function (arrToCheck, element) {
+//     let index = {
+//         maxIndex: 0,
+//         minIndex: 0
+//     }
+//     let arrEmpty = [];
+//     arrToCheck.forEach((value, i) => {
+//         if (value === element) {
+//             arrEmpty.push(i)
+//         }
+//
+//         index.maxIndex = arrEmpty[arrEmpty.length-1];
+//         index.minIndex = arrEmpty[0];
+//
+//     })
+//
+//     if (index.maxIndex === undefined) {
+//        index = `${element} does not exist in this array`;
+//             }
+//     return index
+// }
+//
+// let indexes = maxAndMinIndex (arr, 1);
+// console.log(indexes);
 
 
 

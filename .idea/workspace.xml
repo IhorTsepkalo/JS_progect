@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="5a4e520d-83bc-4bd6-a44a-189d681ffa55" name="Default Changelist" comment="  ///">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS_HW4_Functions/main_JS_HW4_FUNCTIONS.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS_HW4_Functions/main_JS_HW4_FUNCTIONS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS_HW5_OOP_Class/main_JS_HW5_OOP_CLASS.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS_HW5_OOP_Class/main_JS_HW5_OOP_CLASS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS_HW4_FUNCTIONS/main_JS_HW4_FUNCTIONS.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS_HW4_FUNCTIONS/main_JS_HW4_FUNCTIONS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS_HW5_OOP_CLASS/main_JS_HW5_OOP_CLASS.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS_HW5_OOP_CLASS/main_JS_HW5_OOP_CLASS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS_HW6_ArrMethods/index_JS_HW6_ArrMethods.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS_HW6_ArrMethods/index_JS_HW6_ArrMethods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS_HW6_ArrMethods/main_JS_HW6_ArrMethods.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS_HW6_ArrMethods/main_JS_HW6_ArrMethods.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +90,7 @@
       <workItem from="1617957548256" duration="14658000" />
       <workItem from="1618222436292" duration="66078000" />
       <workItem from="1618607259152" duration="975000" />
-      <workItem from="1618745779336" duration="66183000" />
+      <workItem from="1618745779336" duration="71612000" />
     </task>
     <task id="LOCAL-00001" summary="JS_HW2 Except an additional tasks.">
       <created>1616720587235</created>
@@ -363,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619099543487</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="  ///">
+      <created>1619120373499</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1619120373499</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
