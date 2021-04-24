@@ -514,6 +514,43 @@
 // carsCopy[0]= 'ppp';
 // console.log(carsCopy[0]);
 // console.log(carss[0]);/// такий спосіб копіювання дає абсолютно незалежну від оригіналу копію лише на першому рівні вложеності. Якщо копія іде глибока, то всі рівні глибше першого дають відносну копію(посилання) і зміна копії спричиняє мутацію оригіналую.
+// НЕ Глибока копія масиву з допомогою рекурсії
+//let car1 = {producer: 'bmw', power: 450, driver: {name: 'Alex', age: 35, expirience: 5}, price: 3000, release: 2020};
+// let car2 = {producer: 'ford', power: 200, driver: {name: 'Viktor', age: 25, expirience: 7}, price: 5000, release: 2018};
+// let car3 = {producer: 'bmw', power: 300, driver: {name: 'Oleg', age: 45, expirience: 14}, price: 7000, release: 2013};
+// let car4 = {producer: 'mercedes', power: 300, driver: {name: 'Petro', age: 33, expirience: 9}, price: 8000, release: 2017};
+// let car5 = {producer: 'toyota', power: 250, driver: {name: 'Petro', age: 31, expirience: 10}, price: 6000, release: 2019};
+// let car6 = {producer: 'toyota', power: 240, driver: {name: 'Alex', age: 33, expirience: 10}, price: 9000, release: 2021};
+// let car7 = {producer: 'bmw', power: 300, driver: {name: 'Viktor', age: 30, expirience: 3}, price: 5000, release: 2015};
+// let car8 = {producer: 'subaru', power: 400, driver: {name: 'Igor', age: 25, expirience: 5}, price: 2000, release: 2010};
+// let car9 = {producer: 'subaru', power: 150, driver: {name: 'Petro', age: 46, expirience: 20}, price: 3000, release: 2009};
+// let car10 = {producer: 'kia', power: 400, driver: {name: 'Oleg', age: 43, expirience: 8}, price: 7000, release: 2014};
+// let car11 = {producer: 'ford', power: 450, driver: {name: 'Viktor', age: 39, expirience: 12}, price: 8000, release: 2018};
+// let car12 = {producer: 'kia', power: 350, driver: {name: 'Max', age: 34, expirience: 12}, price: 5000, release: 2016};
+// let car13 = {producer: 'mercedes', power: 400, driver: {name: 'Oleg', age: 29, expirience: 7}, price: 3000, release: 2011};
+// let carss = [];
+// carss.push(car1, car2, car3, car4, car5, car6, car7, car8, car9, car10, car11, car12, car13);
+//
+// function arrCopy (arrToCopy, i=0, newArr = {})  {
+//     if (i<arrToCopy.length) {
+//         newArr[i] = arrToCopy[i];
+//
+//         return arrCopy(arrToCopy, ++i, newArr)
+//     }
+//     else {
+//         return newArr
+//     }
+// }
+//
+// let newCars = arrCopy(carss);
+// let copy2 = arrCopy(newCars)
+// newCars[0] = 'rrrrrrrrr'
+//
+//
+// console.log(newCars, 'newCars');
+// console.log(carss, 'carss');
+/// такий спосіб копіювання дає абсолютно незалежну від оригіналу копію лише на першому рівні вложеності. Якщо копія іде глибока, то всі рівні глибше першого дають відносну копію(посилання) і зміна копії спричиняє мутацію оригіналую.
+
 
 // --------------------------------------------------------------
 //Задача: дан отсортированный по возрастанию массив целых чисел.
