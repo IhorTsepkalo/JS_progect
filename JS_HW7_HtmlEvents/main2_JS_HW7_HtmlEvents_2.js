@@ -182,3 +182,13 @@
 //     })
 // }
 
+// let arr = [1, 2, 3, 5, 5, 99, 3];
+// let unique = new Set(arr);
+// console.log(unique);
+
+// let biggest = arr.reduce((acc, value) => {
+//     if (value > arr[0]) {arr[0] = value}
+//     return arr[0]
+// }, arr[0])
+// console.log(biggest);
+
